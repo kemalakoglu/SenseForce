@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingPuzzleSıgnalR.ConsoleApplication", "src\CodingPuzzleSıgnalR.Console\CodingPuzzleSıgnalR.ConsoleApplication.csproj", "{B59B4F72-CCEB-4BD2-91D8-C884CD42C1AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console", "Console", "{1A5DC750-0A3C-47B6-B094-53FB49D0A081}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationContext", "ApplicationContext", "{33F4BB3D-3800-4C01-AA2D-058FF6844EFC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingPuzzleSıgnalR.ApplicationContext", "src\CodingPuzzleSıgnalR.Context\CodingPuzzleSıgnalR.ApplicationContext.csproj", "{5889A7AB-05E8-41AA-AB24-D01BD950A18F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationService", "ApplicationService", "{157DCBA9-1052-4C49-92FA-D3270161825F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingPuzzleSıgnalR.ApplicationService", "src\CodingPuzzleSıgnalR.ApplicationService\CodingPuzzleSıgnalR.ApplicationService.csproj", "{74067274-6988-41AF-AE26-5FB569E53E2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{4DE43F1E-AA42-4374-919C-E9CE8E2BAD82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingPuzzleSıgnalR.IntegrationTest", "test\CodingPuzzleSıgnalR.IntegrationTest\CodingPuzzleSıgnalR.IntegrationTest\CodingPuzzleSıgnalR.IntegrationTest.csproj", "{52D0C7DE-F97A-4026-8236-5FE0B6B7C645}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B59B4F72-CCEB-4BD2-91D8-C884CD42C1AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B59B4F72-CCEB-4BD2-91D8-C884CD42C1AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B59B4F72-CCEB-4BD2-91D8-C884CD42C1AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B59B4F72-CCEB-4BD2-91D8-C884CD42C1AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5889A7AB-05E8-41AA-AB24-D01BD950A18F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5889A7AB-05E8-41AA-AB24-D01BD950A18F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5889A7AB-05E8-41AA-AB24-D01BD950A18F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5889A7AB-05E8-41AA-AB24-D01BD950A18F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74067274-6988-41AF-AE26-5FB569E53E2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74067274-6988-41AF-AE26-5FB569E53E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74067274-6988-41AF-AE26-5FB569E53E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74067274-6988-41AF-AE26-5FB569E53E2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52D0C7DE-F97A-4026-8236-5FE0B6B7C645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52D0C7DE-F97A-4026-8236-5FE0B6B7C645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52D0C7DE-F97A-4026-8236-5FE0B6B7C645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52D0C7DE-F97A-4026-8236-5FE0B6B7C645}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B59B4F72-CCEB-4BD2-91D8-C884CD42C1AF} = {1A5DC750-0A3C-47B6-B094-53FB49D0A081}
+		{5889A7AB-05E8-41AA-AB24-D01BD950A18F} = {33F4BB3D-3800-4C01-AA2D-058FF6844EFC}
+		{74067274-6988-41AF-AE26-5FB569E53E2E} = {157DCBA9-1052-4C49-92FA-D3270161825F}
+		{52D0C7DE-F97A-4026-8236-5FE0B6B7C645} = {4DE43F1E-AA42-4374-919C-E9CE8E2BAD82}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0187AF0-9231-41AF-A4A4-ACA423575274}
+	EndGlobalSection
+EndGlobal
