@@ -51,7 +51,7 @@ namespace CodingPuzzleSıgnalR.IntegrationTest
             bool result = this.applicationService.ConsumeMessage(mess);
 
             //Assert
-            Assert.True(result);
+            Assert.Throws<Exception>(() => "Message Body Is Not Valid");
         }
 
         [Fact]
